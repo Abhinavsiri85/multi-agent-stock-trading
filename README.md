@@ -22,21 +22,24 @@ AI_Agents/
 ├── agents/
 │ ├── analyst_agent.py # Defines the Analyst Agent responsible for stock analysis
 │ └── trader_agent.py # Defines the Trader Agent responsible for trade decisions
-│
+
+
 ├── tasks/
 │ ├── analyze_task.py # Task for analyzing stock performance
 │ └── trade_task.py # Task for making trading decisions
-│
+
+
 ├── tools/
 │ └── stock_research_tool.py # Tool to fetch stock data from Yahoo Finance
-│
+
+
 ├── crew.py # Assembles agents and tasks into a working CrewAI pipeline
 ├── main.py # Entry point to execute the multi-agent trading system
 ├── requirements.txt # Python dependencies
 ├── env_template.txt # Example of environment variable setup
 └── .gitignore # Git ignore configuration
 
-##Components
+## Components
 Analyst Agent
   - Focuses on analyzing current stock market conditions, including price, percentage change, and volatility.
 
